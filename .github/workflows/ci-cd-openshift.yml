@@ -11,10 +11,10 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_OWNER: shibil-basith
-  BACKEND_IMAGE: ghcr.io/shibil-basith/doctor-backend
-  FRONTEND_IMAGE: ghcr.io/shibil-basith/doctor-frontend
-  ADMIN_IMAGE: ghcr.io/shibil-basith/doctor-admin
+  IMAGE_OWNER: mariyamjumana
+  BACKEND_IMAGE: ghcr.io/mariyamjumana/doctor-backend
+  FRONTEND_IMAGE: ghcr.io/mariyamjumana/doctor-frontend
+  ADMIN_IMAGE: ghcr.io/mariyamjumana/doctor-admin
 
 jobs:
   build-scan-push:

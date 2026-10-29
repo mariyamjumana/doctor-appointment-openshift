@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/shibil-basith/doctor-backend:latest
+        image: ghcr.io/mariyamjumana/doctor-backend:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 4000

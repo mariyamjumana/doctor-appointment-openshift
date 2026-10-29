@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: admin
-        image: ghcr.io/shibil-basith/doctor-admin:latest
+        image: ghcr.io/mariyamjumana/doctor-admin:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
